@@ -1,0 +1,15 @@
+CRITICAL - 2023-04-25 10:58:23 --> file_get_contents(): SSL: Handshake timed out
+in APPPATH\Controllers\Home.php on line 27.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(): SSL: Handshake timed out', 'APPPATH\\Controllers\\Home.php', 27, [...])
+ 2 APPPATH\Controllers\Home.php(27): file_get_contents('https://api.myquran.com/v1/sholat/jadwal/1211/2023/04/25')
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-25 10:58:48 --> Too few arguments to function App\Models\ModelHome::Lokasi(), 0 passed in C:\xampp\htdocs\simasjid\app\Controllers\Home.php on line 129 and exactly 1 expected
+in APPPATH\Models\ModelHome.php on line 47.
+ 1 APPPATH\Controllers\Home.php(129): App\Models\ModelHome->Lokasi()
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Home->Lokasi()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

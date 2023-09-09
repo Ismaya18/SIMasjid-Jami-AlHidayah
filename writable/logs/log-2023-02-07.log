@@ -1,0 +1,26 @@
+CRITICAL - 2023-02-07 17:33:52 --> Invalid file: kas-masjid/v_kas_sosial_masuk.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('kas-masjid/v_kas_sosial_masuk.php')
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('kas-masjid/v_kas_sosial_masuk', [], true)
+ 3 APPPATH\Views\v_template_admin.php(271): view('kas-masjid/v_kas_sosial_masuk')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_template_admin.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 7 APPPATH\Controllers\KasSosial.php(38): view('v_template_admin', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\KasSosial->KasMasuk()
+ 9 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasSosial))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-07 18:00:47 --> Invalid file: kas-sosial/v_kas_masjid_keluar.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('kas-sosial/v_kas_masjid_keluar.php')
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('kas-sosial/v_kas_masjid_keluar', [], true)
+ 3 APPPATH\Views\v_template_admin.php(271): view('kas-sosial/v_kas_masjid_keluar')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_template_admin.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 7 APPPATH\Controllers\KasSosial.php(51): view('v_template_admin', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\KasSosial->KasKeluar()
+ 9 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasSosial))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

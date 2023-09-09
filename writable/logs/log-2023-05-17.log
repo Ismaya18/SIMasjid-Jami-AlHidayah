@@ -1,0 +1,75 @@
+ERROR - 2023-05-17 16:58:30 --> mysqli_sql_exception: Table 'db-simasjid.tbl_user' doesn't exist in C:\xampp\htdocs\simasjid\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\simasjid\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\simasjid\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\simasjid\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\simasjid\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\simasjid\app\Models\ModelLogin.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\simasjid\app\Controllers\Login.php(45): App\Models\ModelLogin->CekUser('admin@gmail.com', 'admin')
+#6 C:\xampp\htdocs\simasjid\system\CodeIgniter.php(904): App\Controllers\Login->CekLogin()
+#7 C:\xampp\htdocs\simasjid\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 C:\xampp\htdocs\simasjid\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\simasjid\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-05-17 16:58:31 --> Call to a member function getRowArray() on bool
+in APPPATH\Models\ModelLogin.php on line 14.
+ 1 APPPATH\Controllers\Login.php(45): App\Models\ModelLogin->CekUser('admin@gmail.com', 'admin')
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Login->CekLogin()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-17 17:01:34 --> mysqli_sql_exception: Table 'db-simasjid.tbl_user' doesn't exist in C:\xampp\htdocs\simasjid\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\simasjid\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\simasjid\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\simasjid\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\simasjid\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\simasjid\app\Models\ModelLogin.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\simasjid\app\Controllers\Login.php(45): App\Models\ModelLogin->CekUser('admin@gmail.com', 'admin')
+#6 C:\xampp\htdocs\simasjid\system\CodeIgniter.php(904): App\Controllers\Login->CekLogin()
+#7 C:\xampp\htdocs\simasjid\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 C:\xampp\htdocs\simasjid\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\simasjid\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-05-17 17:01:34 --> Call to a member function getRowArray() on bool
+in APPPATH\Models\ModelLogin.php on line 14.
+ 1 APPPATH\Controllers\Login.php(45): App\Models\ModelLogin->CekUser('admin@gmail.com', 'admin')
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Login->CekLogin()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-17 17:03:13 --> mysqli_sql_exception: Table 'db-simasjid.tbl_user' doesn't exist in C:\xampp\htdocs\simasjid\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\simasjid\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\simasjid\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\simasjid\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\simasjid\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\simasjid\app\Models\ModelUser.php(12): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\simasjid\app\Controllers\User.php(23): App\Models\ModelUser->AllData()
+#6 C:\xampp\htdocs\simasjid\system\CodeIgniter.php(904): App\Controllers\User->index()
+#7 C:\xampp\htdocs\simasjid\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#8 C:\xampp\htdocs\simasjid\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\simasjid\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-05-17 17:03:13 --> Call to a member function getResultArray() on bool
+in APPPATH\Models\ModelUser.php on line 12.
+ 1 APPPATH\Controllers\User.php(23): App\Models\ModelUser->AllData()
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\User->index()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 17:28:18 --> Invalid argument supplied for foreach()
+in APPPATH\Views\v_data_admin.php on line 33.
+ 1 APPPATH\Views\v_data_admin.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'APPPATH\\Views\\v_data_admin.php', 33, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_data_admin.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('v_data_admin', [], true)
+ 5 APPPATH\Views\v_template_admin.php(299): view('v_data_admin')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 9 APPPATH\Controllers\DataAdmin.php(25): view('v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\DataAdmin->index()
+11 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataAdmin))
+12 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
